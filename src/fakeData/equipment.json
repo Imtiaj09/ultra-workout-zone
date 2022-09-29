@@ -1,0 +1,50 @@
+[
+  {
+    "id": "6335950d72184c602385688e",
+    "name": "Dumbbell",
+    "Time required": 30,
+    "For age": "20-25",
+    "img": "https://images.unsplash.com/photo-1544033527-b192daee1f5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGd5bSUyMGVxdWlwbWVudHxlbnwwfHwwfHw%3D&w=1000&q=80"
+  },
+  {
+    "id": "6335950d5e692560f1200ba4",
+    "name": "Smith machine",
+    "Time required": 30,
+    "For age": "20-25",
+    "img": "https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/thumbs/37346/smith-machine-2.jpg"
+  },
+  {
+    "id": "6335950d07d3e562fe8c1a08",
+    "name": "Guthrie Phillips",
+    "Time required": 30,
+    "For age": "20-25",
+    "img": 
+  },
+  {
+    "id": "6335950d0060897ca0eb84ed",
+    "name": "Kettlebell",
+    "Time required": 30,
+    "For age": "20-25",
+    "img": "https://media.istockphoto.com/photos/closeup-shot-of-an-unrecognisable-man-exercising-with-a-kettlebell-in-picture-id1359559751?b=1&k=20&m=1359559751&s=170667a&w=0&h=MX1x2I3JPDpXabVjtQ57qyG8nxWq9PcpR2XizVD3wc0="
+  },
+  {
+    "id": "6335950d4a7cfd8ed91bacbc",
+    "name": "Pull-down",
+    "Time required": 30,
+    "img": "https://blog.nasm.org/hubfs/lat-pulldown.jpg"
+  },
+  {
+    "id": "6335950df31d93b5d9471588",
+    "name": "Stationary bicycle",
+    "Time required": 30,
+    "For age": "20-25",
+    "img": "https://cloud.starkinsider.com/wp-content/uploads/2020/12/Bowflex-C7-Bike-vs-Peloton-cycling-home-fitness-scaled.jpg"
+  },
+  {
+    "id": "6335950d364f652b6ee0091c",
+    "name": "Barbell",
+    "Time required": 30,
+    "For age": "20-25",
+    "img": "https://www.muscleandfitness.com/wp-content/uploads/2018/02/man-squatting-barbell-1109.jpg?w=1200&h=630&crop=1&quality=86&strip=all"
+  }
+]
