@@ -1,9 +1,19 @@
 .product{
   width: 300px;
+  height: 450px;
 }
 
 .product img{
   width: 286px;
   height: 125px;
   border-radius: 17px;
+}
+
+.product-name{
+  font-family: 'Lucida Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 7px;
 }
