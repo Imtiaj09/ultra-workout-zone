@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Cart.css'
 import img from '../../images/author.JPG'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = (props) => {
   const { cart } = props
@@ -15,6 +17,9 @@ const Cart = (props) => {
   }
   const [breakT, setBreakT] = useState(state)
 
+  const reactToast = () => {
+    toast("Congratulations you are done with your activity!");
+  }
   const handleBreakTime = (time) => {
     setBreakT(time)
     localStorage.setItem('brTime', time)
@@ -66,9 +71,10 @@ const Cart = (props) => {
         <p>{breakT} seconds</p>
       </div>
       <br />
-      <button className='btn-comp'>
+      <button onClick={reactToast} className='btn-comp'>
         <p>Activity Completed</p>
       </button>
+      <ToastContainer />
     </div>
   );
 };

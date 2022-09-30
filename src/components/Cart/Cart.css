@@ -53,6 +53,14 @@
   background-color: whitesmoke;
 }
 
+.time button{
+  border: none;
+  border-radius: 15px;
+}
+.time button:hover{
+  background-color: dodgerblue;
+}
+
 .btn-comp{
   width: 100%; 
   color: white;
