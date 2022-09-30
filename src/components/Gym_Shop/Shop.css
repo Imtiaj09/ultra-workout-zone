@@ -2,13 +2,25 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+
+
 .products-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin: 100px 50px;
+  padding: 15px;
 }
+
 
 .cart-container{
   background-color: rgb(192,192,192);
+}
+
+@media screen and (max-width: 576px){
+  .shop-container{
+    grid-template-columns: 1fr;
+  }
+  .products-container{
+    grid-template-columns: 1fr;
+  }
 }

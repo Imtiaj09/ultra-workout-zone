@@ -30,7 +30,6 @@
 .br-time {
   display: flex;
   justify-content: space-between;
-  width: 250px;
   height: 50px;
   border: 1px solid whitesmoke;
   border-radius: 10px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 import img from '../../images/author.JPG'
 
@@ -8,7 +8,17 @@ const Cart = (props) => {
   for (const product of cart) {
     totalT = totalT + product.time;
   }
+  let state = 0;
+  const oldTime = localStorage.getItem('brTime')
+  if (oldTime) {
+    state = oldTime
+  }
+  const [breakT, setBreakT] = useState(state)
 
+  const handleBreakTime = (time) => {
+    setBreakT(time)
+    localStorage.setItem('brTime', time)
+  }
   return (
     <div className='cart'>
       <div className='detail'>
@@ -33,16 +43,16 @@ const Cart = (props) => {
       <h4>Add A Break</h4>
       <div className='br-time'>
         <div className='time'>
-          <p>10s</p>
+          <button onClick={() => handleBreakTime(10)}>10s</button>
         </div>
         <div className='time'>
-          <p>20s</p>
+          <button onClick={() => handleBreakTime(20)}>20s</button>
         </div>
         <div className='time'>
-          <p>30s</p>
+          <button onClick={() => handleBreakTime(30)}>30s</button>
         </div>
         <div className='time'>
-          <p>40s</p>
+          <button onClick={() => handleBreakTime(40)}>40s</button>
         </div>
       </div>
       <h4>Exercise Details</h4>
@@ -53,7 +63,7 @@ const Cart = (props) => {
       <br />
       <div className='break-time'>
         <h4>Break time</h4>
-        <p>00 seconds</p>
+        <p>{breakT} seconds</p>
       </div>
       <br />
       <button className='btn-comp'>
