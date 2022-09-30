@@ -38,6 +38,7 @@
   border-radius: 10px;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
 }
 .btn-cart:hover{
   background-color: green;
